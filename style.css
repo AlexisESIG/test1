@@ -2,7 +2,7 @@
 body {
 	width: 1000px; /* largeur de la page */
 	margin: auto; /* center sur la page */
-	background: lightgray; /* body est tout la page du site */
+	background: blueviolet; /* body est tout la page du site */
 	background-image: url("gif.gif") ; /*  mettre une image en arrière plan */
 	background-repeat: repeat-x;  /*  répeter le background que sur l'ax x*/
 	border: solid white;
