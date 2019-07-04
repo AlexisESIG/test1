@@ -1,0 +1,112 @@
+
+body {
+	width: 1000px; /* largeur de la page */
+	margin: auto; /* center sur la page */
+	background: lightgray; /* body est tout la page du site */
+	background-image: url("gif.gif") ; /*  mettre une image en arrière plan */
+	background-repeat: repeat-x;  /*  répeter le background que sur l'ax x*/
+	border: solid white;
+}
+
+
+h1	{
+	color: #FFFFFF; /* pour la couleur du text*/
+	border: dashed 2px olivedrab; /* bordure du titre un  */
+	box-shadow: black  2px 2px 2px ; /* effet ombre */
+	text-align: center; /* alignement du text */
+	background: aqua; /*  arrier plant*/
+	/*  arrier plant*/
+	background-color: rgba(255, 0, 0, 0.5 ); /* Fond rouge à moitié transparent  a indique la transparence*/
+	font-family: Impact, "Arial Black", Arial, Verdana, sans-serif; /* changer la police */
+
+}
+
+h2{
+	color: blue;
+
+}
+
+
+p1 {
+	background: olive;
+	border: 2px brown double; background: cornsilk;
+	text-align: center;
+	text-decoration: grey initial ;
+
+}
+
+
+.introduction {
+	color: black;
+	text-align: center;
+}
+
+citation{
+	color: hotpink;
+}
+
+ol{
+	border: outset;
+	border-radius: 10px; /*  bordure arrrondi*/
+	background: darkcyan ;
+
+	
+}
+
+ol:hover{
+	background: yellow;
+	font-style: italic;
+	width: 1000px;
+}
+
+#fortinte{
+	float: right;
+
+
+}
+
+.fortnite{
+
+	box-shadow: black  2px 2px 2px ;
+	color: rgb(152,100,135);
+	font-size: 60px; /* taille du texte */
+	margin: auto;
+	text-align: center;
+}
+
+a /* Liens par défaut (non survolés) */
+{
+	text-decoration: underline;
+	color: red;
+	font-style: italic;
+
+}
+
+a:hover /* Apparence au survol des liens */
+{
+	text-decoration: underline;
+	color: green;
+}
+
+a:active /* Quand le visiteur clique sur le lien */
+{
+	background-color: #FFCC66;
+}
+
+a:visited /* Quand le visiteur a déjà vu la page concernée */
+{
+	color: #AAA; /* Appliquer une couleur grise */
+}
+
+.imageflottante
+{
+	float: left;
+}
+.dessous
+{
+	clear: both;
+}
+
+.fortnite{
+	text-align: center;
+}
