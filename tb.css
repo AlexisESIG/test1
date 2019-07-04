@@ -1,0 +1,64 @@
+
+
+.grid-item1,.grid-item2,.grid-item3,.grid-item4
+{
+	border : 1px solid black;
+}
+.grid-container{
+	display: grid;
+	grid-template-areas: 'header header header header header'
+						'nav g1 g1 g2 g2'
+						'nav g3 g3 g4 g4'
+						'footer footer footer footer footer';
+}
+
+.grid-item1
+{
+	grid-area : g1;
+
+
+}
+.grid-item2
+{
+	grid-area : g2;
+
+
+}
+.grid-item3
+{
+	grid-area : g3;
+
+}
+.grid-item4
+{
+	grid-area : g4;
+
+}
+
+header{
+	text-align: center;
+	grid-area : header;
+	border: 1px solid black;
+}
+
+footer{
+	grid-area : footer;
+	border: 1px solid black;
+	text-align: center;
+}
+nav{
+	grid-area: nav;
+	border: 1px solid black;
+
+}
+
+main{
+
+	border: 1px solid black;
+
+}
+body{
+	margin-top: 250px;
+	margin-right: 150px;
+	margin-left: 150px;
+}
