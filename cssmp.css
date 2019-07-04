@@ -1,0 +1,40 @@
+header{
+	border: 1px red solid;
+	width: 500px;
+}
+
+main{
+	border: 1px green solid;
+	width: 500px;
+}
+
+footer{
+	border: 1px blue solid;
+	width: 500px;
+}
+
+section{
+	border: 1px yellow solid;
+	display: inline-block;
+	width: 198px;
+	vertical-align: auto;
+}
+
+#wrapper{
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	margin-top: 500px;
+	background-color: #FFFFFF;
+}
+
+nav{
+	width: 198px;
+	display: inline-block;
+	border: solid 1px black;
+
+
+}
+body{
+	background-color: #FFCC66;
+}
